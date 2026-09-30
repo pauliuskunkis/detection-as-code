@@ -1,0 +1,20 @@
+title: SSH Login Attempt With Invalid User
+id: 0d4a4a39-5b72-4860-b0ee-3d9e9bdc8676
+status: experimental
+description: Detects SSH login attempts using a username that does not exist on the system, a common sign of brute-force or username-guessing attacks.
+author: Paulius Kunkis
+date: 2026-09-30
+tags:
+    - attack.credential-access
+    - attack.t1110
+logsource:
+    product: linux
+    service: sshd
+detection:
+    keywords:
+        - 'Invalid user'
+    condition: keywords
+falsepositives:
+    - Legitimate users mistyping their username
+    - Former users whose account was deleted but still have saved SSH connections
+level: medium
