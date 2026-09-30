@@ -1,0 +1,6 @@
+Sep 30 14:51:20 testhost sshd-session[6825]: Accepted keyboard-interactive/pam for alice from 203.0.113.10 port 53073 ssh2
+Sep 30 14:51:20 testhost sshd-session[6825]: pam_unix(sshd:session): session opened for user alice(uid=1000) by alice(uid=0)
+Sep 30 17:00:39 testhost unix_chkpwd[12853]: password check failed for user (alice)
+Sep 30 17:00:39 testhost sshd-session[12849]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=::1  user=alice
+Sep 30 17:00:41 testhost sshd-session[12847]: error: PAM: Authentication failure for alice from ::1
+Sep 30 17:00:43 testhost sshd-session[12847]: Connection closed by authenticating user alice ::1 port 58440 [preauth]

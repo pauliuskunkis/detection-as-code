@@ -1,0 +1,14 @@
+Sep 30 16:49:59 testhost sshd-session[12433]: Invalid user fakeuser from ::1 port 46340
+Sep 30 16:49:59 testhost sshd-session[12433]: Postponed keyboard-interactive for invalid user fakeuser from ::1 port 46340 ssh2 [preauth]
+Sep 30 16:50:08 testhost sshd-session[12433]: error: PAM: Authentication failure for illegal user fakeuser from ::1
+Sep 30 16:50:08 testhost sshd-session[12433]: Failed keyboard-interactive/pam for invalid user fakeuser from ::1 port 46340 ssh2
+Sep 30 16:50:08 testhost sshd-session[12433]: Postponed keyboard-interactive for invalid user fakeuser from ::1 port 46340 ssh2 [preauth]
+Sep 30 16:50:11 testhost sshd-session[12433]: error: PAM: Authentication failure for illegal user fakeuser from ::1
+Sep 30 16:50:11 testhost sshd-session[12433]: Failed keyboard-interactive/pam for invalid user fakeuser from ::1 port 46340 ssh2
+Sep 30 16:50:11 testhost sshd-session[12433]: Postponed keyboard-interactive for invalid user fakeuser from ::1 port 46340 ssh2 [preauth]
+Sep 30 16:50:16 testhost sshd-session[12433]: error: PAM: Authentication failure for illegal user fakeuser from ::1
+Sep 30 16:50:16 testhost sshd-session[12433]: Failed keyboard-interactive/pam for invalid user fakeuser from ::1 port 46340 ssh2
+Sep 30 16:50:27 testhost sshd-session[12433]: Failed password for invalid user fakeuser from ::1 port 46340 ssh2
+Sep 30 16:50:37 testhost sshd-session[12433]: Failed password for invalid user fakeuser from ::1 port 46340 ssh2
+Sep 30 16:50:39 testhost sshd-session[12433]: error: maximum authentication attempts exceeded for invalid user fakeuser from ::1 port 46340 ssh2 [preauth]
+Sep 30 16:50:39 testhost sshd-session[12433]: Disconnecting invalid user fakeuser ::1 port 46340: Too many authentication failures [preauth]
